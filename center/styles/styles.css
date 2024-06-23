@@ -4,35 +4,35 @@
   margin: 0;
 }
 
-body {
+.principal {
   width: 100%;
   height: 100vh;
-  background-color: aqua;
+  background-color: black;
+
+  
+  display: flex;
+
+  /* 1ª forma de centralizar
+  
   display: flex;
   align-items: center;
   justify-content: center;
+  */
 }
 
-.principal {
-  width: 70%;
-  height: 70%;
-  background-color: black;
-  position: relative;
-}
-
-.children1 {
+.center {
   width: 200px;
   height: 200px;
   background-color: brown;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
+  margin: auto;
 
-.children2 {
-  width: 200px;
-  height: 200px;
-  background-color: blueviolet;
-  position: relative;
-  right: 20px;
+  /* 2ª forma de centralizar
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  */
 }
