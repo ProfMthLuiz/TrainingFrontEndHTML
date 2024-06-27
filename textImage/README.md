@@ -1,4 +1,6 @@
-<strong>🚀 Este repositório contém um exemplo simples de uma página HTML que utiliza CSS para exibir texto sobre uma imagem de fundo, usando uma fonte personalizada.</strong>
+📷 Projeto TextImage
+
+&nbsp; &nbsp; &nbsp; &nbsp; <strong>🚀 Este repositório contém um exemplo simples de uma página HTML que utiliza CSS para exibir texto sobre uma imagem de fundo, usando uma fonte personalizada.</strong>
 
 <h2>Conteúdo do Repositório</h2>
 &nbsp; &nbsp; &nbsp; &nbsp; 📑 index.html: Arquivo HTML principal que contém a estrutura básica da página. <br>
