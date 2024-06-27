@@ -27,3 +27,8 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 &nbsp; &nbsp; &nbsp; &nbsp; 💥position: absolute <br><br>
 &nbsp; &nbsp; &nbsp; &nbsp; Um elemento com position: absolute é removido do fluxo normal do documento e é posicionado em relação ao contêiner posicionado mais próximo.
+
+<br>
+<br>
+
+💡 _Observação: Quando utilizamos position: absolute em um componente filho, e o componente pai possui position: relative, o componente filho será posicionado em relação ao pai, mas não ficará limitado ao tamanho do pai; ele pode ser posicionado fora dos limites do pai._
