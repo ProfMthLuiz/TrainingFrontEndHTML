@@ -16,10 +16,5 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 &nbsp; &nbsp; &nbsp; &nbsp; 📁 Abra o arquivo index.html em seu navegador web.
 
-<h2>Estrutura do Projeto</h2>
-&nbsp; &nbsp; &nbsp; &nbsp; index.html: Contém a estrutura da carta 3D com imagens de fundo e elementos sobrepostos. <br>
-&nbsp; &nbsp; &nbsp; &nbsp; styles.css: Define o estilo visual da carta 3D, incluindo efeitos de transformação e transição. <br>
-&nbsp; &nbsp; &nbsp; &nbsp; images/: Contém as imagens utilizadas, como o background do Gragas, o logo do League of Legends e a imagem do personagem Gragas. <br>
-
 <h2>Notas</h2>
 &nbsp; &nbsp; &nbsp; &nbsp; 📌 Ajuste as propriedades e caminhos das imagens conforme necessário para explorar diferentes efeitos visuais e técnicas de CSS.
