@@ -1,4 +1,5 @@
 <h4 align="center"> 
-	🚧🚀  Em construção...  🚀🚧
+	🚧🚀  <strong>Bem vindo ao repositório HTML/CSS</strong>  🚀🚧 <br>
+	_sempre em desenvolvimento_
 </h4>
 
