@@ -1,6 +1,6 @@
 🔳 <strong>Projeto CSS Centralização</strong>
 
-Este projeto demonstra diferentes técnicas de centralização de um elemento dentro de um contêiner usando HTML e CSS.
+&nbsp; &nbsp; &nbsp; &nbsp; Este projeto demonstra diferentes técnicas de centralização de um elemento dentro de um contêiner usando HTML e CSS.
 
 <h2>Conteúdo do Repositório</h2>
 &nbsp; &nbsp; &nbsp; &nbsp; 📑 index.html: Arquivo HTML principal que define a estrutura da página. <br>
