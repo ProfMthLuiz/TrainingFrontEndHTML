@@ -1,6 +1,6 @@
 🃏 <strong>3D Card LOL</strong>
 
-Este projeto apresenta uma carta 3D inspirada no jogo League of Legends (LoL), utilizando HTML e CSS para criar efeitos visuais dinâmicos.
+&nbsp; &nbsp; &nbsp; &nbsp; Este projeto apresenta uma carta 3D inspirada no jogo League of Legends (LoL), utilizando HTML e CSS para criar efeitos visuais dinâmicos.
 
 <h2>Conteúdo do Repositório</h2>
 &nbsp; &nbsp; &nbsp; &nbsp; 📑 index.html: Arquivo HTML principal que define a estrutura da página. <br>
