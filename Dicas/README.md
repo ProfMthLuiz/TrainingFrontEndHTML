@@ -1,4 +1,4 @@
-## 📎 HTML
+## ✨ HTML
 
 ### 💭 Abreviações HTML
 
