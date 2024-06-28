@@ -1,8 +1,8 @@
-## 📎 JR vs SR
+## 📎 Abreviações
 
 ### 💭 Dicas HTML and CSS
 
-ISSO
+HTML
 
 ```
     <div>
@@ -13,7 +13,7 @@ ISSO
     </div>
 ```
 
-É O MESMO QUE
+Abreviação
 
 ```
 div>p>a{Testing}^a{Hello}
