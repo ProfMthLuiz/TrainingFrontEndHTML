@@ -1,28 +1,28 @@
 @font-face {
-  font-family: PacificoRegular;
-  src: url(../fonts/Pacifico-Regular.ttf);
+  font-family: PacificoRegular; /* Define o nome da fonte personalizada */
+  src: url(../fonts/Pacifico-Regular.ttf); /* Define a URL do arquivo da fonte */
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  box-sizing: border-box; /* Define o modelo de caixa como border-box para todos os elementos */
+  padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+  margin: 0; /* Remove a margem padrão de todos os elementos */
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: rgb(205, 193, 173);
+  display: flex; /* Define o display do body como flexbox */
+  justify-content: center; /* Alinha os itens do body no centro horizontalmente */
+  align-items: center; /* Alinha os itens do body no centro verticalmente */
+  width: 100%; /* Define a largura do body para 100% */
+  height: 100vh; /* Define a altura do body para 100% da altura da viewport */
+  background-color: rgb(205, 193, 173); /* Define a cor de fundo do body */
 }
 
 .text {
-  background: url(../images/wallp.jpg);
-  background-clip: text;
-  background-size: cover;
-  color: transparent;
-  font-size: 10rem;
-  font-family: PacificoRegular, "Times New Roman", Times, serif;
+  background: url(../images/wallp.jpg); /* Define a imagem de fundo para o texto */
+  background-clip: text; /* Define que o fundo só será visível na área do texto */
+  background-size: cover; /* Faz com que a imagem de fundo cubra totalmente a área do texto */
+  color: transparent; /* Define a cor do texto como transparente */
+  font-size: 10rem; /* Define o tamanho da fonte como 10 rem */
+  font-family: PacificoRegular, "Times New Roman", Times, serif; /* Define a família de fontes, com PacificoRegular como prioridade */
 }
