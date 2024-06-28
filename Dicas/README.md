@@ -36,6 +36,6 @@ div>p>a{Testing}^a{Hello}
 ✂️ Abreviação
 
 ```
-Digite: jcc -> ENTER;
-Digite: aic -> ENTER;
+    Digite: jcc -> ENTER;
+    Digite: aic -> ENTER;
 ```
