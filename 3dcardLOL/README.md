@@ -1,4 +1,14 @@
-🃏 <strong>3D Card LOL</strong>
+# MENU
+
+➡️ &nbsp; [Conteúdo](#conteúdo-do-repositório) <br>
+➡️ &nbsp; [Como utilizar](#como-utilizar) <br>
+➡️ &nbsp; [NOTAS](#notas) <br>
+➡️ &nbsp; [EXPLICAÇÕES](#explicações) <br>
+<br>
+<br>
+
+
+<h2>🃏 3D Card LOL</h2>
 
 &nbsp; &nbsp; &nbsp; &nbsp; Este projeto apresenta uma carta 3D inspirada no jogo League of Legends (LoL), utilizando HTML e CSS para criar efeitos visuais dinâmicos.
 
@@ -7,7 +17,7 @@
 &nbsp; &nbsp; &nbsp; &nbsp; 📁 styles/: Pasta que contém o arquivo CSS (styles.css) responsável pelo estilo da página. <br>
 &nbsp; &nbsp; &nbsp; &nbsp; 📁 images/: Pasta que contém as imagens utilizadas no projeto. <br>
 
-<h2>Como Usar</h2>
+<h2>Como Utilizar</h2>
 &nbsp; &nbsp; &nbsp; &nbsp; ✒️ Clone este repositório: <br><br>
 
 ```
@@ -145,4 +155,6 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px rgba(0, 0, 0, 0.22) 0px 10px 10px;
 &nbsp; &nbsp; &nbsp; &nbsp; - Isso aplica duas sombras: <br>
 &nbsp; &nbsp; &nbsp; &nbsp; - rgba(0, 0, 0, 0.25) 0px 14px 28px: Uma sombra preta sem deslocamento no eixo X, 14 pixels de deslocamento no eixo Y, 28 pixels de desfoque, e sem expansão. <br>
 &nbsp; &nbsp; &nbsp; &nbsp; - rgba(0, 0, 0, 0.22) 0px 10px 10px: Outra sombra preta sem deslocamento no eixo X, 10 pixels de deslocamento no eixo Y, 10 pixels de desfoque, e sem expansão. <br>
-&nbsp; &nbsp; &nbsp; &nbsp; - Estas sombras adicionam profundidade e dimensão ao elemento, fazendo com que pareça elevado ou flutuante acima do fundo.
+&nbsp; &nbsp; &nbsp; &nbsp; - Estas sombras adicionam profundidade e dimensão ao elemento, fazendo com que pareça elevado ou flutuante acima do fundo. <br><br>
+
+⬆️   [Início](#menu) <br>
