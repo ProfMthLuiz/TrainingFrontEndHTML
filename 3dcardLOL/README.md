@@ -4,9 +4,6 @@
 ➡️ &nbsp; [Como utilizar](#como-utilizar) <br>
 ➡️ &nbsp; [NOTAS](#notas) <br>
 ➡️ &nbsp; [EXPLICAÇÕES](#explicações) <br>
-<br>
-<br>
-
 
 <h2>🃏 3D Card LOL</h2>
 
