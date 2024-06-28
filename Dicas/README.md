@@ -1,6 +1,6 @@
-## 📎 Abreviações
+## 📎 HTML
 
-### 💭 Dicas HTML and CSS
+### 💭 Abreviações HTML
 
 🖥️ HTML
 
@@ -17,4 +17,20 @@
 
 ```
 div>p>a{Testing}^a{Hello}
+```
+
+## 🗂️ Abreviações CSS
+
+🌈 CSS
+
+```
+    justify-content: center;
+    align-items: center;
+```
+
+✂️ Abreviação
+
+```
+Digite: jcc -> ENTER;
+Digite: aic -> ENTER;
 ```
