@@ -1,13 +1,13 @@
 # MENU
 
-➡️ &nbsp; [Conteúdo](#conteúdo-do-repositório) <br>
-➡️ &nbsp; [Como utilizar](#como-utilizar) <br>
-➡️ &nbsp; [NOTAS](#notas) <br>
-➡️ &nbsp; [EXPLICAÇÕES](#explicações) <br>
+&nbsp; &nbsp; &nbsp; &nbsp; ➡️ &nbsp; [Conteúdo](#conteúdo-do-repositório) <br>
+&nbsp; &nbsp; &nbsp; &nbsp; ➡️ &nbsp; [Como utilizar](#como-utilizar) <br>
+&nbsp; &nbsp; &nbsp; &nbsp; ➡️ &nbsp; [NOTAS](#notas) <br>
+&nbsp; &nbsp; &nbsp; &nbsp; ➡️ &nbsp; [EXPLICAÇÕES](#explicações) <br>
 
-<h2>🃏 3D Card LOL</h2>
+<h2>3D Card LOL</h2>
 
-&nbsp; &nbsp; &nbsp; &nbsp; Este projeto apresenta uma carta 3D inspirada no jogo League of Legends (LoL), utilizando HTML e CSS para criar efeitos visuais dinâmicos.
+&nbsp; &nbsp; &nbsp; &nbsp; 🃏 Este projeto apresenta uma carta 3D inspirada no jogo League of Legends (LoL), utilizando HTML e CSS para criar efeitos visuais dinâmicos.
 
 <h2>Conteúdo do Repositório</h2>
 &nbsp; &nbsp; &nbsp; &nbsp; 📑 index.html: Arquivo HTML principal que define a estrutura da página. <br>
@@ -154,4 +154,4 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px rgba(0, 0, 0, 0.22) 0px 10px 10px;
 &nbsp; &nbsp; &nbsp; &nbsp; - rgba(0, 0, 0, 0.22) 0px 10px 10px: Outra sombra preta sem deslocamento no eixo X, 10 pixels de deslocamento no eixo Y, 10 pixels de desfoque, e sem expansão. <br>
 &nbsp; &nbsp; &nbsp; &nbsp; - Estas sombras adicionam profundidade e dimensão ao elemento, fazendo com que pareça elevado ou flutuante acima do fundo. <br><br>
 
-⬆️   [Início](#menu) <br>
+&nbsp; &nbsp; &nbsp; &nbsp; ⬆️ &nbsp; [Início](#menu) <br>
