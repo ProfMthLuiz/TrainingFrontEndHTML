@@ -1,133 +1,130 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box; /* Define que o modelo de caixa será o border-box para todos os elementos */
+  margin: 0; /* Remove as margens padrão de todos os elementos */
+  padding: 0; /* Remove o preenchimento padrão de todos os elementos */
 }
 
 body {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #e91e63;
+  width: 100%; /* Define a largura do body para 100% */
+  height: 100vh; /* Define a altura do body para 100% da altura da viewport */
+  margin: 0; /* Remove a margem padrão do body */
+  display: flex; /* Define o display do body como flexbox */
+  justify-content: center; /* Alinha os itens do body no centro horizontalmente */
+  align-items: center; /* Alinha os itens do body no centro verticalmente */
+  background-color: #e91e63; /* Define a cor de fundo do body */
 }
 
 .card {
-  width: 455px;
-  height: 300px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 36px;
-  perspective: 2500px;
-  cursor: pointer;
-  border-radius: 30px;
-  background-color: blue;
+  width: 455px; /* Define a largura do card */
+  height: 300px; /* Define a altura do card */
+  position: relative; /* Define a posição do card como relativa */
+  display: flex; /* Define o display do card como flexbox */
+  justify-content: center; /* Alinha os itens do card no centro horizontalmente */
+  align-items: center; /* Alinha os itens do card no centro verticalmente */
+  padding: 0 36px; /* Define o preenchimento do card */
+  perspective: 2500px; /* Define a perspectiva 3D do card */
+  cursor: pointer; /* Define o cursor do mouse como ponteiro quando sobre o card */
+  border-radius: 30px; /* Define o arredondamento das bordas do card */
+  background-color: blue; /* Define a cor de fundo do card */
 }
 
 .cover-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 100%; /* Define a largura da imagem de capa para 100% */
+  height: 100%; /* Define a altura da imagem de capa para 100% */
+  object-fit: cover; /* Faz com que a imagem cubra totalmente a área, mantendo a proporção */
 }
 
 .wrapper {
-  transition: all 0.5s;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-  background: #000;
-  border-radius: 30px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px rgba(0, 0, 0, 0.22) 0px 10px
-    10px;
+  transition: all 0.5s; /* Define a transição de 0.5 segundos para todas as propriedades */
+  position: absolute; /* Define a posição do wrapper como absoluta */
+  width: 100%; /* Define a largura do wrapper para 100% */
+  z-index: -1; /* Define o índice z do wrapper para -1 */
+  background: #000; /* Define a cor de fundo do wrapper como preto */
+  border-radius: 30px; /* Define o arredondamento das bordas do wrapper */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px rgba(0, 0, 0, 0.22) 0px 10px 10px; /* Define a sombra do wrapper */
 }
 
 .wrapper img {
-  border-radius: 30px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px rgba(0, 0, 0, 0.22) 0px 10px
-    10px;
+  border-radius: 30px; /* Define o arredondamento das bordas das imagens dentro do wrapper */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px rgba(0, 0, 0, 0.22) 0px 10px 10px; /* Define a sombra das imagens dentro do wrapper */
 }
 
 .card:hover .wrapper {
-  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
-  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0); /* Transforma o wrapper ao passar o mouse sobre o card */
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75); /* Define uma nova sombra para o wrapper ao passar o mouse sobre o card */
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75); /* Define a sombra no WebKit ao passar o mouse sobre o card */
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75); /* Define a sombra no Mozilla ao passar o mouse sobre o card */
 }
 
 .wrapper::before,
 .wrapper::after {
-  content: "";
-  opacity: 0;
-  width: 100%;
-  height: 80px;
-  transition: all 0.5s;
-  border-radius: 30px;
-  position: absolute;
-  left: 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px rgba(0, 0, 0, 0.22) 0px 10px
-    10px;
+  content: ""; /* Insere um conteúdo vazio antes e depois do wrapper */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  width: 100%; /* Define a largura para 100% */
+  height: 80px; /* Define a altura para 80px */
+  transition: all 0.5s; /* Define a transição de 0.5 segundos para todas as propriedades */
+  border-radius: 30px; /* Define o arredondamento das bordas */
+  position: absolute; /* Define a posição como absoluta */
+  left: 0; /* Define a posição à esquerda como 0 */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px rgba(0, 0, 0, 0.22) 0px 10px 10px; /* Define a sombra */
 }
 
 .wrapper::before {
-  top: 0;
-  height: 100%;
-  background-image: linear-gradient(
+  top: 0; /* Define a posição no topo como 0 */
+  height: 100%; /* Define a altura para 100% */
+  background-image: linear-gradient( /* Define um gradiente linear como imagem de fundo */
     to top,
-    transparent 46%,
-    rgba(12, 13, 19, 0.5) 68%,
-    rgba(12, 13, 19) 97%
+    transparent 46%, /* Transparente até 46% */
+    rgba(12, 13, 19, 0.5) 68%, /* Uma cor semitransparente até 68% */
+    rgba(12, 13, 19) 97% /* Uma cor sólida até 97% */
   );
 }
 
 .wrapper::after {
-  bottom: 0;
-  opacity: 1;
-  background-image: linear-gradient(
+  bottom: 0; /* Define a posição na parte inferior como 0 */
+  opacity: 1; /* Define a opacidade inicial como 1 */
+  background-image: linear-gradient( /* Define um gradiente linear como imagem de fundo */
     to bottom,
-    transparent 46%,
-    rgba(12, 13, 19, 0.5) 68%,
-    rgba(12, 13, 19) 97%
+    transparent 46%, /* Transparente até 46% */
+    rgba(12, 13, 19, 0.5) 68%, /* Uma cor semitransparente até 68% */
+    rgba(12, 13, 19) 97% /* Uma cor sólida até 97% */
   );
 }
 
 .card:hover .wrapper::before,
 .wrapper::after {
-  opacity: 1;
+  opacity: 1; /* Define a opacidade como 1 ao passar o mouse sobre o card */
 }
 
 .card:hover .wrapper::after {
-  height: 120px;
+  height: 120px; /* Define a altura como 120px ao passar o mouse sobre o card */
 }
 
 .logo {
-  width: 100%;
-  transition: 0.5s;
-  position: absolute;
-  bottom: -20px;
+  width: 100%; /* Define a largura da logo para 100% */
+  transition: 0.5s; /* Define a transição de 0.5 segundos para a logo */
+  position: absolute; /* Define a posição da logo como absoluta */
+  bottom: -20px; /* Define a posição da logo 20px abaixo do bottom */
 }
 
 .card:hover .logo {
-  transform: translate3d(0%, -50px, 100px);
+  transform: translate3d(0%, -50px, 100px); /* Transforma a logo ao passar o mouse sobre o card */
 }
 
 .card:hover .cover-image {
-  opacity: 0.3;
+  opacity: 0.3; /* Define a opacidade da imagem de capa como 0.3 ao passar o mouse sobre o card */
 }
 
 .character {
-  width: 100%;
-  opacity: 0;
-  transition: all 0.5s;
-  filter: drop-shadow(2px 2px 2px #000);
-  position: absolute;
-  z-index: -1;
+  width: 100%; /* Define a largura do character para 100% */
+  opacity: 0; /* Define a opacidade inicial do character como 0 */
+  transition: all 0.5s; /* Define a transição de 0.5 segundos para todas as propriedades do character */
+  filter: drop-shadow(2px 2px 2px #000); /* Define um filtro de sombra projetada para o character */
+  position: absolute; /* Define a posição do character como absoluta */
+  z-index: -1; /* Define o índice z do character como -1 */
 }
 
 .card:hover .character {
-  opacity: 1;
-  transform: translate3d(5%, -20%, 670px);
+  opacity: 1; /* Define a opacidade do character como 1 ao passar o mouse sobre o card */
+  transform: translate3d(5%, -20%, 670px); /* Transforma o character ao passar o mouse sobre o card */
 }
