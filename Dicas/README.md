@@ -2,7 +2,7 @@
 
 ### 💭 Dicas HTML and CSS
 
-HTML
+🖥️ HTML
 
 ```
     <div>
@@ -13,7 +13,7 @@ HTML
     </div>
 ```
 
-Abreviação
+✂️ Abreviação
 
 ```
 div>p>a{Testing}^a{Hello}
