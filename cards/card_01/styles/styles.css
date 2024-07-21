@@ -1,0 +1,190 @@
+/* Aplica box-sizing a todos os elementos, incluindo padding e borda no tamanho total do elemento, 
+   e remove padding e margens padrão */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo para o contêiner principal */
+.container {
+  display: grid; /* Define o layout do contêiner como grid */
+  place-items: center; /* Centraliza os itens dentro do grid */
+  margin-inline: 1.5rem; /* Define margens laterais de 1.5rem */
+  padding-block: 5rem; /* Define padding superior e inferior de 5rem */
+}
+
+/* Estilo para o grid de cartões */
+.cards {
+  display: grid; /* Define o layout do contêiner como grid */
+  row-gap: 3.5rem; /* Define um espaçamento de 3.5rem entre as linhas do grid */
+}
+
+/* Estilo para cada artigo de cartão */
+.card_article {
+  position: relative; /* Define a posição como relativa ao contêiner pai */
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites do contêiner */
+}
+
+/* Estilo para a imagem do cartão */
+.card_image {
+  width: 100%; /* Define a largura da imagem como 100% do contêiner pai */
+  height: 400px; /* Define a altura da imagem */
+  border-radius: 1.5rem; /* Arredonda os cantos da imagem */
+}
+
+/* Estilo para os dados do cartão */
+.card_data {
+  width: 280px; /* Define a largura do contêiner de dados */
+  background-color: #fff; /* Define a cor de fundo como branco */
+  padding: 1.5rem 2rem; /* Define padding interno */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* Adiciona uma sombra ao contêiner */
+  border-radius: 1rem; /* Arredonda os cantos do contêiner */
+  position: absolute; /* Define a posição como absoluta */
+  bottom: -9rem; /* Posiciona o contêiner 9rem abaixo do fundo do pai */
+  left: 0; /* Alinha o contêiner à esquerda */
+  right: 0; /* Alinha o contêiner à direita */
+  margin-inline: auto; /* Centraliza o contêiner horizontalmente */
+  opacity: 0; /* Define a opacidade inicial como 0 (invisível) */
+  transition: opacity 1s 1s; /* Define uma transição para a opacidade com duração e atraso de 1 segundo */
+}
+
+/* Estilo para a descrição do cartão */
+.card_description {
+  display: block; /* Exibe o elemento como um bloco */
+  font-size: 20px; /* Define o tamanho da fonte */
+  margin-bottom: 0.25rem; /* Define uma margem inferior */
+  font-weight: 500; /* Define a espessura da fonte */
+  color: #838383; /* Define a cor do texto */
+}
+
+/* Estilo para o título do cartão */
+.card_title {
+  font-size: 25px; /* Define o tamanho da fonte */
+  font-weight: 900; /* Define a espessura da fonte */
+  color: #000; /* Define a cor do texto como preto */
+  margin-bottom: 0.75rem; /* Define uma margem inferior */
+}
+
+/* Estilo para o botão do cartão */
+.card_button {
+  text-decoration: none; /* Remove sublinhado do texto */
+  font-size: var(
+    --small-font-size
+  ); /* Define o tamanho da fonte usando uma variável CSS */
+  font-weight: 500; /* Define a espessura da fonte */
+  color: var(--first-color); /* Define a cor do texto usando uma variável CSS */
+}
+
+/* Estilo para o botão do cartão em estado de hover */
+.card_button:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao texto */
+}
+
+/* Estilos de animação para o cartão em estado de hover */
+.card_article:hover .card_data {
+  animation: show-data 1s forwards; /* Aplica a animação show-data por 1 segundo */
+  opacity: 1; /* Define a opacidade como 1 (visível) */
+  transition: opacity 0.3s; /* Define uma transição para a opacidade com duração de 0.3 segundos */
+}
+
+.card_article:hover {
+  animation: remove-overflow 2s forwards; /* Aplica a animação remove-overflow por 2 segundos */
+}
+
+/* Estilos de animação para o cartão que não está em estado de hover */
+.card_article:not(:hover) {
+  animation: show-overflow 2s forwards; /* Aplica a animação show-overflow por 2 segundos */
+}
+
+.card_article:not(:hover) .card_data {
+  animation: remove-data 1s forwards; /* Aplica a animação remove-data por 1 segundo */
+}
+
+/* Definições de animação para mostrar os dados do cartão */
+@keyframes show-data {
+  50% {
+    transform: translateY(
+      -10rem
+    ); /* Move o elemento para cima em 10rem no meio da animação */
+  }
+  100% {
+    transform: translateY(
+      -7rem
+    ); /* Move o elemento para cima em 7rem no final da animação */
+  }
+}
+
+/* Definição de animação para remover o overflow */
+@keyframes remove-overflow {
+  to {
+    overflow: initial; /* Define overflow como inicial */
+  }
+}
+
+/* Definição de animação para remover os dados */
+@keyframes remove-data {
+  0% {
+    transform: translateY(-7rem); /* Define a posição inicial da animação */
+  }
+  50% {
+    transform: translateY(
+      -10rem
+    ); /* Move o elemento para cima em 10rem no meio da animação */
+  }
+  100% {
+    transform: translateY(
+      0.5rem
+    ); /* Move o elemento para cima em 0.5rem no final da animação */
+  }
+}
+
+/* Definição de animação para mostrar o overflow */
+@keyframes show-overflow {
+  0% {
+    overflow: initial; /* Define overflow como inicial no início da animação */
+    pointer-events: none; /* Desativa os eventos do ponteiro */
+  }
+  50% {
+    overflow: hidden; /* Define overflow como hidden no meio da animação */
+  }
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* Para dispositivos pequenos */
+@media screen and (max-width: 340px) {
+  .container {
+    margin-inline: 1rem; /* Reduz as margens laterais para 1rem */
+  }
+
+  .card_data {
+    width: 250px; /* Reduz a largura do contêiner de dados */
+    padding: 1rem; /* Reduz o padding interno */
+  }
+}
+
+/* Para dispositivos médios */
+@media screen and (min-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr); /* Define 2 colunas no grid */
+    column-gap: 1.5rem; /* Define um espaçamento de 1.5rem entre as colunas */
+  }
+}
+
+/* Para dispositivos grandes */
+@media screen and (min-width: 1120px) {
+  .container {
+    height: 100vh; /* Define a altura do contêiner como 100% da altura da tela */
+  }
+
+  .cards {
+    grid-template-columns: repeat(3, 1fr); /* Define 3 colunas no grid */
+  }
+  .card_image {
+    width: 348px; /* Aumenta a largura da imagem */
+  }
+  .card_data {
+    width: 316px; /* Aumenta a largura do contêiner de dados */
+    padding-inline: 2.5rem; /* Aumenta o padding interno nas laterais */
+  }
+}
